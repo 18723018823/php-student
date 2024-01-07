@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录选项</title>
+    <style>
+     body {
+  background-image: url("12.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 38px;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+ <h1>大数据分析股票系统</h1>
+    <h2>登录选项</h2>
+    <select onchange="location = this.value;">
+        <option value="">请选择你的身份</option>
+        <option value="login.html">管理员登录</option>
+        <option value="login3.php">学生登录</option>
+    </select>
+</body>
+</html>
